@@ -86,6 +86,15 @@ header .list {
 .header-nav:focus {
   color: var(--button-order-background-hover-focus-color);
 }
+.icon-contact {
+  margin-right: 10px;
+}
+.icon-contact:hover {
+  color: currentColor;
+}
+.contact {
+  fill: currentColor;
+}
 .header-contact > a {
   color: var(--contacts-text-color);
   font-weight: 500;
@@ -98,6 +107,8 @@ header .list {
   margin-top: 0;
   margin-bottom: 0;
   align-items: center;
+  padding-top: 8px;
+  padding-bottom: 7px;
 }
 .header-contact + .header-contact {
   margin-left: 50px;
@@ -168,7 +179,7 @@ h2 {
   width: 270px;
   margin-right: 30px;
 }
-.details-list::before {
+/* .details-list::before {
   content: "";
   display: block;
   height: 120px;
@@ -191,6 +202,16 @@ h2 {
 }
 .icon-astronaut::before {
   background-image: url(../images/astronaut.svg);
+} */
+.icon-details {
+  background-color: #f5f4fa;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+.icon {
+  width: 70px;
+  height: 70px;
 }
 .details-title {
   font-weight: 700;
@@ -484,14 +505,4 @@ img {
 }
 p {
   font-weight: normal;
-}
-.icon-contact {
-  margin-right: 10px;
-  color: #757575;
-}
-.icon-contact:hover {
-  color: var(--button-order-background-hover-focus-color);
-}
-.env {
-  fill: currentColor;
 }
